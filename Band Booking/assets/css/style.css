@@ -1,0 +1,497 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+/*-----------------
+    6. Header
+-----------------------*/
+.header {
+  background: #ffffff;
+  position: sticky;
+  box-shadow: 0px 10px 40px rgba(202, 202, 202, 0.2);
+  left: 0;
+  top: 0;
+  width: 100%;
+  z-index: 999;
+}
+.header.fixed {
+  background-color: #ffffff;
+  box-shadow: 0px 3px 53px rgba(197, 197, 197, 0.27);
+}
+.header .logo a {
+  float: left;
+}
+.header .logo a img {
+  float: left;
+  max-height: 32px;
+}
+.header .header-nav {
+  align-items: center;
+  border: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  position: relative;
+  height: 85px;
+  padding: 0 15px 0 15px;
+  margin-bottom: 0;
+}
+.nav-searchbar ul{
+  display: contents;
+}
+.search-nav{
+  display: block;
+}
+.search-form input {
+  border-radius: 50px;
+  border: solid 0.1rem rgba(0, 0, 0, 0.200000003);
+  padding: 10px 180px 10px 58px;
+  color:  #000;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.icon {
+  position: relative;
+  display: inline-block;
+}
+
+/* Style the icon */
+.icon i {
+  position: absolute;
+  left: 10px; 
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+/* Style the input field */
+
+.header .header-navbar-rht > li {
+  align-items: center;
+  display: inline-flex;
+  padding-right: 15px;
+  justify-content: center;
+}
+.header .header-navbar-rht .nav-item .header-login {
+  background-color: #ffffff;
+  border-radius: 22.5px;
+  color: #3D3838;
+  font-weight: 600;
+  font-size: 16px;
+  padding: 10px 20px;
+  font-family: Montserrat;
+}
+.header .header-navbar-rht .nav-item .header-reg {
+  background-color: #C87F5C;
+  border-radius: 22.5px;
+  color: #ffffff;
+  font-weight: 600;
+  font-size: 16px;
+  padding: 10px 20px;
+  font-family: Montserrat;
+}
+
+/*-----------------
+    2. Home
+-----------------------*/
+.banner-section {
+  padding: 80px 0;  
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0.8000000119) -0%, rgba(0, 0, 0, 0.8000000119) 100%);
+  background-image: url(../img/home/banner.png);
+  background-position:center ;
+  background-repeat: no-repeat;
+  background-size: cover;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 0;
+  position: relative;
+  padding-bottom: 10rem;
+  width: 100%;
+}
+.banner-content{
+  padding-top: 60px;
+}
+.banner-content h1{
+ color: #ffffff;
+ font-family: Rowdies, 'Source Sans Pro';
+ text-align: center;
+ font-family: Unbounded;
+ font-size: 96px;
+ font-weight: 400;
+ line-height: 99px;
+}
+.banner-para p{
+  color: #FFF;
+  text-align: center;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  font-family: Montserrat;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 26px; 
+}
+.home-banner {
+  position: relative;
+    top: 170px;
+}
+.Musicians{
+  color: #FFF;
+  text-align: end;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.Musicians a{
+  color: #FFF;
+  text-decoration: none;
+}
+
+.view {
+  font-weight: 500;
+  font-size: 16px;
+  border-radius: 22.5px;
+  border: 1px solid  #FFF;
+  line-height: 0;
+  margin: 0;
+  padding: 10px 25px;
+}
+.artist{
+  color: #FFF;
+  margin-left: 10px;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.artist a{
+  color: #FFF;
+  text-decoration: none;
+}
+.artist-band {
+  font-weight: 500;
+  font-size: 16px;
+  border-radius: 22.5px;
+  border: 1px solid #C87F5C;
+  background-color: #c87f5c;
+  line-height: 0;
+  margin: 0;
+  padding: 10px 25px;
+}
+.banner-list .lists {
+  list-style: none; 
+  padding: 0; 
+  overflow: hidden; 
+}
+
+.banner-list .lists li {
+  display: block;
+  margin-bottom: 10px;
+  float: left;
+  padding: 15px 0px 15px 61px;
+  color: Black, #000;
+  font-family: Unbounded;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+/* popular brands */
+.popularbrands-section {
+  padding-top: 60px;
+  background : linear-gradient(180deg, rgba(155, 107, 72, 0.1000000015) -0%, rgba(155, 107, 72, 0) 100%);
+  flex-shrink: 0;
+  position: relative;
+}
+.popularbrands-heading {
+  text-align: center;
+  margin: 0 0 50px;
+}
+.popularbrands-heading h2 {
+  color: Black, #000;
+  font-family: Source Sans Pro; 
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.popularbrands-heading p{
+color:  #8D8D8D;
+text-align: center;
+font-family: Montserrat;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: 24px; 
+}
+.listing-content{
+  padding-top: 15px;
+}
+.btn-outline {
+  font-weight: 500;
+  font-size: 16px;
+  color: #201F1D;
+  border: 1px solid  #C87F5C;
+  border-radius: 22.5px;
+  line-height: 0;
+  margin: 0;
+  padding: 11px 22px;
+}
+.btn-outline span{
+  color:#C87F5C;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.border-stroke{
+  border-radius: 10px;
+  border: 2px solid  #C87F5C; 
+  width: 250px;
+  
+}
+
+/* Live Concert */
+.liveconcert-section {
+  padding-top: 60px;
+  background : linear-gradient(180deg, rgba(155, 107, 72, 0.1000000015) -0%, rgba(155, 107, 72, 0) 100%);
+  flex-shrink: 0;
+  position: relative;
+}
+.liveconcert-heading {
+  text-align: center;
+  margin: 0 0 50px;
+}
+.liveconcert-heading h2 {
+  color: Black, #000;
+  font-family: Source Sans Pro; 
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.liveconcert-heading p{
+  color:  #8D8D8D;
+text-align: center;
+font-family: Montserrat;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: 24px; 
+}
+
+.fav-item {
+  border-radius: 15px;
+  background: rgba(0, 0, 0, 0.20);
+  backdrop-filter: blur(27px);
+  position: relative;
+  bottom: 110px;
+  padding: 8px 10px 0px 30px;
+  margin: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.left-content {
+  flex: 1;
+}
+
+.right-content {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.featured-text {
+  color: #FFF;
+  font-family: Unbounded;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.feature-text{
+  color:  #FFF;
+text-align: center;
+font-family: Unbounded;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: 26px;
+}
+
+.featured-text span {
+  color: #E2E2E2;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 26px;
+  display: block;
+  margin-top: 6px;
+}
+.backround-text {
+  color: #E2E2E2;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 26px;
+}
+/* testimonials */
+.testimonials-section{
+  padding-top: 60px;
+}
+.testimonials-heading {
+  text-align: center;
+  margin: 0 0 50px;
+}
+.testimonials-heading h2 {
+  color: Black, #000;
+  font-family: Source Sans Pro; 
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.testimonials-heading p{
+  color:  #8D8D8D;
+text-align: center;
+font-family: Montserrat;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: 24px; 
+}
+.quotes-head{
+  display: block;
+  width: 60px;
+  height: 60px;
+  background: url(../img/testimonials/Vector.png) no-repeat center center;
+  margin: 0 0 20px;
+}
+
+.card-body{
+  background:  #FFF;
+  box-shadow: 0px 16px 32px 0px rgba(0, 0, 0, 0.07);
+
+}
+
+.card-body p{
+  color: #8D8D8D;
+font-family: Montserrat;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: 26px; 
+}
+.review-details{
+  padding-left: 10px;
+  padding-top: 5px;
+}
+.review-details h6{
+color:  #000;
+font-family: Source Sans Pro;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 16px; 
+}
+
+/* testimonials */
+
+/* footer */
+.footer-section{
+  padding-top: 60px;
+  background : linear-gradient(180deg, rgba(155, 107, 72, 0.1000000015) -0%, rgba(155, 107, 72, 0) 100%);
+  flex-shrink: 0;
+  position: relative;
+ 
+}
+.footer-heading {
+  text-align: center;
+  margin: 0 0 30px;
+}
+
+.band{
+  color: #c87f5c;
+  font-family: Unbounded, 'Source Sans Pro';
+  font-size: 28px;
+  font-weight: 700;
+  text-align: center;
+  margin: 0 0 50px;
+
+}
+.booker{
+  color: #5b8c90;
+  font-family: Unbounded, 'Source Sans Pro';
+  font-size: 28px;
+  font-weight: 700;
+}
+.footer-icons{
+  text-align: center;
+}
+.footer-icons img{
+  padding-right: 10px;
+}
+.footer-menu {
+  flex-direction: column; 
+}
+.footer-menu ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+}
+.footer-menu li {
+  margin: 20px 0; 
+  padding-right: 40px;
+  color:  #3D3838 ;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.footer-menu li a{
+  text-decoration: none;
+  color:  #3D3838 ;
+}
+
+.footer-line{
+  border: 1px solid  #E2E2E2; 
+}
+.copyright-text{
+  text-align: center;
+  padding: 20px;
+}
+.copyright-text p{
+  color: #3D3838;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.copyright-text span{
+  color:  #C87F5C;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+/* footer */
+
+.main-heading{
+color: crimson;
+}
+
+
+.sub-heading{
+color: yellowgreen;
+}
